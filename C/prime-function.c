@@ -3,12 +3,12 @@
 int prime(int num){
 	int i;
 	if (num==1){
-		return 3;
+		return 3; //number is 1
 	}
 	for (i=2;i<=num/2;i++){
 		if (num%i==0){
-			return 0;
+			return 0; //number is not prime
 		}
 	}
-	return 1;
+	return 1; //number is prime
 }
