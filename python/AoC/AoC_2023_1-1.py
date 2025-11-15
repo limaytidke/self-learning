@@ -1000,7 +1000,6 @@ pffldcmnlpsevensixqxhdncrclbc51five
 195one'''
 a=a.split("\n")
 num=[]
-print(a[0])
 sum_num=0
 for i in a:
     for j in i:
@@ -1008,8 +1007,6 @@ for i in a:
             num.append(j)
     number=''
     number=num[0]+num[-1]
-    print(number)
     sum_num+=int(number)
     num.clear()
-print(num)
 print(sum_num)
